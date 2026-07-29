@@ -27,7 +27,7 @@ def remover_pontuacao(texto):
 
 def eh_palindromo(texto):
     texto = remover_pontuacao(texto)
-    texto = texto.replace(" ", "").lower()  # ← LINHA CORRIGIDA
+    texto = texto.replace(" ", "").lower()  
     return texto == texto[::-1]
 
 def contar_vogais(texto):
